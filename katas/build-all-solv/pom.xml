@@ -1,0 +1,41 @@
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.codingkata</groupId>
+    <artifactId>build-all-solv</artifactId>
+    <version>1.5.0</version>
+    <name>build-all-solv</name>
+    <packaging>pom</packaging>
+    <url>http://www.codingkata.org</url>
+
+    <modules>
+        <module>../backwards-talk-solv-java</module>
+        <module>../caesar-lottery-solv-java</module>
+        <module>../cd-sort-solv-java</module>
+        <module>../cough-syrup-gcd-solv-java</module>
+        <module>../cube-solv-java</module>
+        <module>../evolution-solv-java</module>
+        <module>../fibonacci-killer-solv-java</module>
+        <module>../fizz-buzz-solv-java</module>
+        <module>../friday-13th-solv-java</module>
+        <module>../happy-number-solv-java</module>
+        <module>../mars-books-solv-java</module>
+        <module>../movie-tickets-solv-java</module>
+        <module>../movie-titles-solv-java</module>
+        <module>../nasa-countdown-solv-java</module>
+        <module>../roman-roulette-solv-java</module>
+        <module>../tea-party-solv-java</module>
+        <module>../tea-party-solv-scala</module>
+        <module>../tea-party-solv-groovy</module>
+        <module>../teleprompter-solv-java</module>
+        <module>../teleprompter-v2-solv-jython</module>
+        <module>../towers-hanoi-solv-java</module>
+        <module>../train-chaos-solv-java</module>
+        <module>../url-rewrite-solv-java</module>
+    </modules>
+
+</project>
+
+

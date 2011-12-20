@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><archetype>
+  <id>fizzbuzz-task</id>
+  <sources>
+    <source>src\main\java\org\codingkata\unit\api\BaseKataSolution.java</source>
+    <source>src\main\java\org\codingkata\unit\api\IKataTask.java</source>
+    <source>src\main\java\org\codingkata\unit\impl\KataTask.java</source>
+  </sources>
+  <testSources>
+    <source>src\test\java\org\codingkata\unit\impl\KataTaskTest.java</source>
+  </testSources>
+  <resources>
+    <resource>src\main\resources\log4j.properties</resource>
+    
+    
+    <resource>build.properties</resource>
+    <resource>catalog.xml</resource>
+    <resource>template.mf</resource>
+  </resources>
+  <testResources>
+    <resource>src\test\resources\log4j.properties</resource>
+  </testResources>
+</archetype>

@@ -1,0 +1,47 @@
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.codingkata</groupId>
+    <artifactId>build-all</artifactId>
+    <version>1.5.0</version>
+    <name>build-all-tasks</name>
+    <packaging>pom</packaging>
+    <url>http://www.codingkata.org</url>
+
+    <distributionManagement>
+        <repository>
+            <id>lvps83-169-18-201.dedicated.hosteurope.de</id>
+            <name>codingkata.org-releases</name>
+            <url>http://codingkata.org/repo/release</url>
+        </repository>
+    </distributionManagement>
+
+    <modules>
+        <module>../backwards-talk-task</module>
+        <module>../caesar-lottery-task</module>
+        <module>../cd-sort-task</module>
+        <module>../cough-syrup-gcd-task</module>
+        <module>../cube-task</module>
+        <module>../evolution-task</module>
+        <module>../fibonacci-killer-task</module>
+        <module>../fizz-buzz-task</module>
+        <module>../friday-13th-task</module>
+        <module>../happy-number-task</module>
+        <module>../hello-world-task</module>
+        <module>../mars-books-task</module>
+        <module>../movie-tickets-task</module>
+        <module>../movie-titles-task</module>
+        <module>../nasa-countdown-task</module>
+        <module>../roman-roulette-task</module>
+        <module>../tea-party-task</module>
+        <module>../teleprompter-task</module>
+        <module>../teleprompter-v2-task</module>
+        <module>../towers-hanoi-task</module>
+        <module>../train-chaos-task</module>
+        <module>../url-rewrite-task</module>
+    </modules>
+
+</project>
+

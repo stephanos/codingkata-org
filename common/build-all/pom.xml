@@ -1,0 +1,35 @@
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.codingkata</groupId>
+    <artifactId>build-all</artifactId>
+    <version>1.5.0</version>
+    <name>build-all</name>
+    <packaging>pom</packaging>
+    <url>http://www.codingkata.org</url>
+
+    <distributionManagement>
+        <repository>
+            <id>lvps83-169-18-201.dedicated.hosteurope.de</id>
+            <name>codingkata.org-releases</name>
+            <url>http://codingkata.org/repo/release</url>
+        </repository>
+    </distributionManagement>
+
+    <modules>
+        <!-- PARENTS -->
+        <module>../parent</module>
+        <module>../parent-task</module>
+        <module>../parent-solv</module>
+
+        <!-- COMMONS -->
+        <module>../common</module>
+        <module>../common-integr</module>
+        <module>../common-exec</module>
+        <module>../common-test</module>
+    </modules>
+
+</project>
+

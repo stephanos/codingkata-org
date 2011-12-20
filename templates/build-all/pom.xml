@@ -1,0 +1,26 @@
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.codingkata</groupId>
+    <artifactId>build-all</artifactId>
+    <version>1.3.0</version>
+    <name>build-all</name>
+    <packaging>pom</packaging>
+    <url>http://www.codingkata.org</url>
+
+    <modules>
+        <!-- ARCHETYPES -->
+        <module>../solv-java-archetype</module>
+        <module>../solv-groovy-archetype</module>
+        <module>../solv-scala-archetype</module>
+        <module>../solv-jruby-archetype</module>
+        <module>../solv-clojure-archetype</module>
+        <module>../solv-javascript-archetype</module>
+        <module>../solv-jython-archetype</module>
+        <module>../solv-javafx-archetype</module>
+    </modules>
+
+</project>
+

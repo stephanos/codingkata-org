@@ -1,0 +1,7 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="${version}" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <nextCatalog catalog="file:/C:/Users/Stephan/.netbeans/6.7/var/cache/mavencachedirs/-109020792//retriever/catalog.xml"/>
+</catalog>

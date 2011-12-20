@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: Stephan
+Build-Jdk: 1.6.0_17
+Bundle-Version: 1.0
+Tool: Bnd-0.0.238
+Bundle-Name: common
+Bnd-LastModified: 1258555936230
+Created-By: Apache Maven Bundle Plugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.jvmkata.common
+

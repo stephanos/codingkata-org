@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.codingkata.unit</groupId>
+    <artifactId>common-test</artifactId>
+    <version>1.5.0</version>
+    <name>common-test</name>
+    <packaging>jar</packaging>
+    <url>http://www.codingkata.org</url>
+
+    <parent>
+        <groupId>org.codingkata</groupId>
+        <artifactId>parent</artifactId>
+        <version>1.5.0</version>
+    </parent>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.codingkata.unit</groupId>
+            <artifactId>common</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.codingkata.unit</groupId>
+            <artifactId>common-exec</artifactId>
+        </dependency>
+
+        <!-- Test Framework -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>5.11</version>
+            <classifier>jdk15</classifier>
+        </dependency>
+
+        <!--<dependency>
+            <groupId>org.junit</groupId>
+            <artifactId>com.springsource.junit</artifactId>
+            <version>3.8.2</version>
+        </dependency>-->
+
+        <!-- Spring -->
+        <!--<dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>org.springframework.test</artifactId>
+            <version>${spring.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.apache.commons</groupId>
+                    <artifactId>com.springsource.org.apache.commons.logging</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>-->
+
+        <!-- Spring OSGi -->
+        <!--<dependency>
+            <groupId>org.springframework.osgi</groupId>
+            <artifactId>spring-osgi-test</artifactId>
+            <version>${spring.osgi.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.osgi</groupId>
+            <artifactId>spring-osgi-extender</artifactId>
+            <version>${spring.osgi.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.osgi</groupId>
+            <artifactId>spring-osgi-annotation</artifactId>
+            <version>${spring.osgi.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.osgi</groupId>
+            <artifactId>log4j.osgi</artifactId>
+            <version>1.2.15-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.osgi</groupId>
+            <artifactId>spring-osgi-test</artifactId>
+            <version>${spring.osgi.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.osgi</groupId>
+            <artifactId>spring-osgi-annotation</artifactId>
+            <version>${spring.osgi.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.osgi</groupId>
+            <artifactId>spring-osgi-extender</artifactId>
+            <version>${spring.osgi.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.log4j</groupId>
+            <artifactId>com.springsource.org.apache.log4j</artifactId>
+            <version>1.2.15</version>
+        </dependency>-->
+
+    </dependencies>
+
+</project>
